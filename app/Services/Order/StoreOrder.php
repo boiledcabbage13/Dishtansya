@@ -30,7 +30,6 @@ class StoreOrder {
             return $this->order->create($data);
         }
         
-
         return false;
     }
 }
